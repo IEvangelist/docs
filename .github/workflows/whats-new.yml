@@ -35,7 +35,7 @@ jobs:
           savedir: './docs/whats-new'
 
       - name: create-pull-request
-        uses: peter-evans/create-pull-request@a4f52f8033a6168103c2538976c07b467e8163bc
+        uses: peter-evans/create-pull-request@6d6857d36972b65feb161a90e484f2984215f83e
         with:
           branch: create-whatsnew-pull-request/patch
           title: "What's new article"
